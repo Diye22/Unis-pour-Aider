@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "284980579987",
+    "project_id": "unispouraider-707c4",
+    "storage_bucket": "unispouraider-707c4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284980579987:android:df2535601f7b5287f64766",
+        "android_client_info": {
+          "package_name": "com.example.unis_pour_aider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfUacj08mRaq_2CoEg6H-42IEW01DaEtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284980579987:android:549661f65cc868c5f64766",
+        "android_client_info": {
+          "package_name": "maimouna.siby.unis_pour_aider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfUacj08mRaq_2CoEg6H-42IEW01DaEtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
