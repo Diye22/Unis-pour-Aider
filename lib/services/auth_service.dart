@@ -20,7 +20,7 @@ class AuthService {
     } on FirebaseAuthException catch (e) {
       return {
         'error': e.message,
-        'code': e.code, // Ajouté pour identifier l’erreur
+        'code': e.code,
       };
     } catch (e) {
       return {

@@ -5,7 +5,7 @@ import '../widgets/custom_bottom_nav_bar.dart';
 
 
 class MapScreen extends StatelessWidget {
-  const MapScreen({Key? key}) : super(key: key); // avec Key pour bonne pratique
+  const MapScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class MapScreen extends StatelessWidget {
           ),
         ],
       ),
-      bottomNavigationBar: CustomBottomNavBar(currentIndex: 3), // ou autre index selon ta logique
+      bottomNavigationBar: CustomBottomNavBar(currentIndex: 3),
     );
   }
 }

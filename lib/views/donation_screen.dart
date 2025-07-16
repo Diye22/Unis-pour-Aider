@@ -6,7 +6,7 @@ class DonationScreen extends StatelessWidget {
   const DonationScreen({Key? key}) : super(key: key);
 
   void handlePayment(BuildContext context, String method) {
-    print('Méthode cliquée : $method'); // ✅ Log temporaire
+    print('Méthode cliquée : $method');
     Navigator.pushNamed(
       context,
       '/pay',
@@ -91,7 +91,7 @@ class DonationScreen extends StatelessWidget {
   }
 }
 
-// ✅ AppBar personnalisée locale
+
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   const CustomAppBar({Key? key, required this.title}) : super(key: key);

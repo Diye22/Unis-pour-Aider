@@ -11,7 +11,7 @@ class CategoriesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFF3A92A5),
-      appBar: const CustomAppBar(title: 'Catégories de Campagnes'), // ✅ AppBar perso
+      appBar: const CustomAppBar(title: 'Catégories de Campagnes'),
       body: GridView.builder(
         padding: const EdgeInsets.all(16),
         itemCount: categories.length,
@@ -72,7 +72,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       leading: Padding(
         padding: const EdgeInsets.all(8.0),
         child: CircleAvatar(
-          backgroundImage: AssetImage('assets/images/logo.jpg'), // ✅ logo rond
+          backgroundImage: AssetImage('assets/images/logo.jpg'),
           radius: 20,
         ),
       ),

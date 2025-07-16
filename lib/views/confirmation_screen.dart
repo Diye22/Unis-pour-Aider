@@ -30,7 +30,6 @@ class _ConfirmationScreenState extends State<ConfirmationScreen> {
         SnackBar(content: Text('Don confirmé via $method pour $amount FCFA')),
       );
 
-      // Tu peux rediriger vers une page de succès ici
     }
   }
 
@@ -111,7 +110,6 @@ class _ConfirmationScreenState extends State<ConfirmationScreen> {
   }
 }
 
-// ✅ AppBar réutilisable directement ici
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
 

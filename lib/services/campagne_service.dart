@@ -1,9 +1,9 @@
 import '../models/campagne_model.dart';
 
 class CampagneService {
-  // Simule un appel API pour obtenir une liste de campagnes
+
   Future<List<Campagne>> fetchCampagnes() async {
-    await Future.delayed(const Duration(seconds: 1)); // Simulation d’un délai réseau
+    await Future.delayed(const Duration(seconds: 1));
 
     return [
       Campagne(id: '1', titre: 'Urgence Humanitaire', description: 'Aide immédiate aux sinistrés.'),
