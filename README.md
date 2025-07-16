@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # unis_pour_aider
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Unis-pour-Aider
+>>>>>>> 19bfe7006b13f612edd27bdd6978a8fd29b986f8
